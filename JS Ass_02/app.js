@@ -37,49 +37,29 @@
 // var print=a + " " +  tickets + "" + " " + tick + " " + cal+ currency;
 // document.write(print); 
 
-// QUESTION#05@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// QUESTION#05
 // var a=4;
-// var b=1;
-// if(b=1 , b<=10 , b++){
-    // c=a*b    
-    // }
-    // document.write(c);
-    
-    // QUESTION#06
-    // var F=prompt();
-    // var cal=(F-32)*5/9;
-    // var C=cal+"C";
-    // document.write(C);
+// for(i=0;i<=10;i++){tablenum=4;
+// document.write(`<h4> ${tablenum} x ${i} = ${tablenum} </h4>`)
+// }
+
+// QUESTION#06
+// var F=prompt();
+// var cal=(F-32)*5/9;
+// var C=cal+"C";
+// document.write(C);
     
 // var C=prompt();
 // var cal=(C*9/5)+32;
 // var F=cal+"F";
 // document.write(F);
 
-// QUESTION#07@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-// var a="Price of item 1 is: ";
-// var noOfItem1=prompt();
-// var aPrice=700;
-// var qun1="Quantity of item 1 is ";
-// var cal=a+(noOfItem1*aPrice);
-
-// var b="Price of item 2 is: ";
-// var cal=b+(noOfItem1*aPrice);
-// var noOfItem2=prompt();
-// var e="Price of item 2 is: ";
-// var qun2="Quantity of item 2 is ";
-// var bPrice=1000;
-
-// var ship="Shipping charges is ";
-// var charges=100;
-
-
-// document.write(a+ aPrice)
-// document.write(qun + noOfItem1);
-// document.write(e + bPrice);
-// document.write(qun2 + noOfItem2);
-// document.write(ship + charges);
-
+// QUESTION#07
+// document.write(`<h2>Shopping Cart</h2>`);
+// let item1=650;
+// let item2=100;
+// let shipping=100;
+// document.write(`<h4>Price of item 1 is ${item1} <br> Quantity of item 1 is 3 <br> Price of item 2 is ${item2} <br> Quantity of item 2 is 7 <br> Shipping Charges is ${shipping}</h4>`)
 // QUESTION#08
 // var obtainMarks=prompt("Enter obtain marks");
 // var totalMarks=prompt("Enter total marks");
@@ -144,20 +124,20 @@
     //   document.write( num + " x " + i + " = " + num * i );
     // }
     
-    // QUESTION#6
-    // var a=prompt("Enter first subject name");
-    // var ao=prompt("Enter the marks")
-    // var b=prompt("Enter second subject name");
-    // var bo=prompt("Enter the marks")
-    // var c=prompt("Enter third subject name");
-    // var co=prompt("Enter the marks")
-    // var totalMarks=100;
-    // var obtainMraks=a+b+c;
-    // var per=((ao+bo+co)/300)*100;
-    // document.write("<h4>Subjects  Total Marks  Obtained Marks Percentage</h4>");
-    // document.write(a+ " " + 100 + " " + ao + " " +ao+"%");
-    // document.write(b+ " " + 100 + " " + ao + " " +ao+"%");
-    // document.write(c+ " " + 100 + " " + ao + " " +ao+"%");
-    // document.write(totalMarks+obtainMraks);
+// QUESTION#6
+// var a=prompt("Enter first subject name");
+// var ao=prompt("Enter the marks")
+// var b=prompt("Enter second subject name");
+// var bo=prompt("Enter the marks")
+// var c=prompt("Enter third subject name");
+// var co=prompt("Enter the marks")
+// var totalMarks=100;
+// var obtainMraks=a+b+c;
+// var per=((ao+bo+co)/300)*100;
+// document.write("<h4>Subjects  Total Marks  Obtained Marks Percentage</h4>");
+// document.write(a+ " " + 100 + " " + ao + " " +ao+"%");
+// document.write(b+ " " + 100 + " " + ao + " " +ao+"%");
+// document.write(c+ " " + 100 + " " + ao + " " +ao+"%");
+// document.write(totalMarks+obtainMraks);
     
     // ----------------------------- CHAPTER :(09-11)----------------------------
